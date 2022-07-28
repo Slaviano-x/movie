@@ -13,4 +13,12 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Splash Screen -->
+    <style name="Movie.Launcher" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splashscreen</item>
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+        <item name="postSplashScreenTheme">@style/Theme.Movie</item>
+    </style>
 </resources>
