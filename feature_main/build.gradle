@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.library'
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'dagger.hilt.android.plugin'
@@ -8,24 +8,15 @@ plugins {
 apply from: "$project.rootDir/codequality/ktlint.gradle"
 apply from: "$project.rootDir/config/module-config.gradle"
 
-android {
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-}
-
 dependencies {
     implementation libs.bundles.commonBundle
     implementation libs.bundles.uiBundle
+    implementation libs.androidxFragment
     kapt           libs.hiltCompiler
-    implementation libs.splashScreen
-    implementation libs.lifecycleViewModel
+    implementation libs.bundles.moshiBundle
+    implementation libs.adapterDelegate
 
     implementation project(':base')
-    implementation project(':feature_main')
     implementation project(':navigation')
     implementation project(':ui_kit')
 }
