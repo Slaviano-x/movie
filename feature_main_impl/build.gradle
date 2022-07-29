@@ -15,8 +15,10 @@ dependencies {
     kapt           libs.hiltCompiler
     implementation libs.bundles.moshiBundle
     implementation libs.adapterDelegate
+    implementation libs.glide
 
     implementation project(':base')
+    implementation project(':feature_main_api')
     implementation project(':navigation')
     implementation project(':ui_kit')
 }

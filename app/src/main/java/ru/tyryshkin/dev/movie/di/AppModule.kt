@@ -4,7 +4,7 @@ import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import ru.tyryshkin.dev.featuremain.MainScreensImpl
+import ru.tyryshkin.dev.featuremain.presentation.navigation.MainScreensImpl
 import ru.tyryshkin.dev.navigation.screens.MainScreens
 import javax.inject.Singleton
 

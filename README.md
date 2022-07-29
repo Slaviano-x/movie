@@ -4,5 +4,6 @@
 * SplashScreen API
 * Version Catalogs in Gradle
 * MultiModules
-* CleanArchitecture
+* Clean Architecture
 * Cicerone
+* RecyclerView Adapter Delegate

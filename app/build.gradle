@@ -25,7 +25,7 @@ dependencies {
     implementation libs.lifecycleViewModel
 
     implementation project(':base')
-    implementation project(':feature_main')
+    implementation project(':feature_main_impl')
     implementation project(':navigation')
     implementation project(':ui_kit')
 }
