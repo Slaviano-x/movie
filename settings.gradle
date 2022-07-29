@@ -16,7 +16,8 @@ dependencyResolutionManagement {
 rootProject.name = "Movie"
 include ':app'
 include ':base'
-include ':feature_main'
+include ':feature_main_api'
+include ':feature_main_impl'
 include ':navigation'
 include ':network'
 include ':ui_kit'

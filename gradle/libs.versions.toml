@@ -30,6 +30,7 @@ cicerone_version = "7.1"
 adapter_delegate_version = "4.3.2"
 view_binding_delegate_version = "1.5.6"
 splash_csreen_version = '1.0.0'
+glide_version = '4.13.2'
 
 [libraries]
 gradle                  = { module = "com.android.tools.build:gradle", version.ref = "gradle_version" }
@@ -56,6 +57,7 @@ hiltAndroid             = { module = "com.google.dagger:hilt-android", version.r
 hiltCompiler            = { module = "com.google.dagger:hilt-compiler", version.ref = "hilt_version" }
 adapterDelegate         = { module = "com.hannesdorfmann:adapterdelegates4-kotlin-dsl-viewbinding", version.ref = "adapter_delegate_version" }
 splashScreen            = { module = "androidx.core:core-splashscreen", version.ref ="splash_csreen_version" }
+glide                   = { module = "com.github.bumptech.glide:glide", version.ref ="glide_version" }
 
 retrofit                = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit_version" }
 retrofitMoshiConverter  = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "retrofit_version" }
