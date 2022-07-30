@@ -14,4 +14,8 @@ dependencies {
 
     implementation libs.bundles.retrofitBundle
     implementation libs.bundles.okhttpBundle
+    implementation libs.rxadapter
+    implementation libs.moshiKotlin
+
+    implementation project(':feature_main_api')
 }

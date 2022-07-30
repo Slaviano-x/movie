@@ -16,9 +16,12 @@ dependencies {
     implementation libs.bundles.moshiBundle
     implementation libs.adapterDelegate
     implementation libs.glide
+    implementation libs.rxkotlin
+    implementation libs.rxandroid
 
     implementation project(':base')
     implementation project(':feature_main_api')
     implementation project(':navigation')
+    implementation project(':network')
     implementation project(':ui_kit')
 }

@@ -10,4 +10,5 @@ dependencies {
     implementation libs.bundles.commonBundle
     implementation libs.bundles.uiBundle
     implementation libs.splashScreen
+    implementation libs.adapterDelegate
 }

@@ -1,8 +1,9 @@
 package ru.tyryshkin.dev.featuremain.presentation.viewobject.model
 
+import ru.tyryshkin.dev.uikit.presentation.viewobject.ViewObject
+
 data class MovieVO(
-    val id: Long,
     val name: String,
     val image: String,
     val description: String
-)
+) : ViewObject

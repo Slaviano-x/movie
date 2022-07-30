@@ -5,8 +5,7 @@ import ru.tyryshkin.dev.featuremainapi.models.MovieDTO
 
 fun MovieDTO.toMovieVO() =
     MovieVO(
-        id = id,
-        name = name,
-        image = image,
-        description = description
+        name = title,
+        image = multimedia.src,
+        description = this.summary
     )
