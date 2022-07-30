@@ -7,3 +7,4 @@
 * Clean Architecture
 * Cicerone
 * RecyclerView Adapter Delegate
+* rxJava
